@@ -1,10 +1,9 @@
-import sys
 import sqlite3
 from PyQt6.QtWidgets import QApplication, QMainWindow, QTableWidget, QTableWidgetItem, QVBoxLayout, QWidget
 from PyQt6 import uic
 
 import sys
-print(sys.version, sys.platform, sys.executable)
+
 
 class CoffeeApp(QMainWindow):
     def __init__(self):
