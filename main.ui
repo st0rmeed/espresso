@@ -17,11 +17,24 @@
    <widget class="QTableWidget" name="tableWidget">
     <property name="geometry">
      <rect>
-      <x>15</x>
-      <y>31</y>
+      <x>10</x>
+      <y>10</y>
       <width>761</width>
-      <height>501</height>
+      <height>381</height>
      </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="coffeeButton">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>460</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Добавить/изменить кофе</string>
     </property>
    </widget>
   </widget>
