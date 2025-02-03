@@ -65,6 +65,14 @@ class addEditCoffeeForm(QMainWindow):
         self.exitButton.clicked.connect(self.open_new_chapter)
         self.applyButton.clicked.connect(self.change_coffee_table)
 
+        self.idEdit.setPlaceholderText('ID')
+        self.nameEdit.setPlaceholderText('Название')
+        self.degreeEdit.setPlaceholderText('Степень обжарки')
+        self.typeEdit.setPlaceholderText('Молотый/в зернах')
+        self.descriptionEdit.setPlaceholderText('Описание вкуса')
+        self.priceEdit.setPlaceholderText('Цена')
+        self.volumeEdit.setPlaceholderText('Объем упаковки')
+
     def change_coffee_table(self):
         changes = True
 
